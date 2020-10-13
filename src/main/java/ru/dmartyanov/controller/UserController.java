@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.dmartyanov.domain.model.User;
-import ru.dmartyanov.domain.model.UserRepository;
+import ru.dmartyanov.domain.repo.UserRepository;
 
 import java.util.List;
 
