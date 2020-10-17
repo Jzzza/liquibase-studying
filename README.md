@@ -7,3 +7,6 @@ Stack:
 * Spring Boot https://start.spring.io/
 * JPA (Hibernate)
 * Liquibase 
+
+Run:
+* Make diff - mvn clean install liquibase:diff -DskipTests=true
