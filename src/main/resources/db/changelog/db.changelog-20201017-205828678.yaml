@@ -1,0 +1,26 @@
+databaseChangeLog:
+    - changeSet:
+          id: 1602968315625-1
+          author: your_liquibase_username (generated)
+          changes:
+              - addNotNullConstraint:
+                    columnDataType: varchar(255)
+                    columnName: email
+                    tableName: users
+                    validate: true
+    - changeSet:
+          id: 1602968315625-2
+          author: your_liquibase_username (generated)
+          changes:
+              - dropUniqueConstraint:
+                    constraintName: UC_USERSUSERNAME_COL
+                    tableName: users
+    - changeSet:
+          id: 1602968315625-3
+          author: your_liquibase_username (generated)
+          changes:
+              - addUniqueConstraint:
+                    columnNames: username
+                    constraintName: UC_USERSUSERNAME_COL
+                    tableName: users
+
