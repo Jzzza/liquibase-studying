@@ -70,3 +70,6 @@ databaseChangeLog:
   - include:
       file: db.changelog-20201017-205828678.yaml
       relativeToChangelogFile: true
+  - include:
+      file: db.changelog-20201017-211020326.yaml
+      relativeToChangelogFile: true
